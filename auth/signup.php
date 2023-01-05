@@ -36,7 +36,7 @@ if (isset($_SESSION['username'])) {
             $mail->Username = 'mg6783256@gmail.com';
  
             //SMTP password
-            $mail->Password = 'dnqtkzdgnsyhwczd';
+            $mail->Password = 'your pass';
  
             //Enable TLS encryption;
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
